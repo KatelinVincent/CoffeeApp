@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Starter"
+rootProject.name = "GrabnGo"
 include(":app")

@@ -1,4 +1,4 @@
-package com.example.starter
+package com.example.grabngocoffee  // Adjust this to match your actual package name
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

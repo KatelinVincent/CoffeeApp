@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Starter</string>
-    <string name="katelin_wants_a_beer">Katelin wants a beer...</string>
-    <string name="grab_and_go_coffee">Grab and Go Coffee</string>
+    <string name="app_name">GrabnGoCoffee</string>
+    <string name="grab_and_go_coffee">GrabnGo Coffee</string>
 </resources>
