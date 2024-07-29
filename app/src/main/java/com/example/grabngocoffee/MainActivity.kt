@@ -35,7 +35,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
-import com.example.starter.ui.theme.StarterTheme
+import com.example.grabngocoffee.ui.theme.GrabnGoCoffeeTheme
 import androidx.compose.foundation.clickable
 import androidx.compose.material3.Button
 import androidx.compose.runtime.getValue
@@ -52,7 +52,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            StarterTheme {
+            GrabnGoCoffeeTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -171,7 +171,7 @@ fun MenuContent(setErrorMessage: (String) -> Unit) {
     LazyColumn(
         modifier = Modifier
             .fillMaxSize()
-            .padding(horizontal = 16.dp, vertical =  4.dp),
+            .padding(horizontal = 16.dp, vertical =  6.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
         categories.forEach { (category, items) ->

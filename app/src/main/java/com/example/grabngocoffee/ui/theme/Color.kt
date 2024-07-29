@@ -1,4 +1,4 @@
-package com.example.starter.ui.theme
+package com.example.grabngocoffee.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
